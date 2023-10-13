@@ -1,0 +1,172 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "BusinessObjects/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/BusinessObjects.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessObjects.dll": {}
+        }
+      },
+      "DataAccessObjects/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "BusinessObjects": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataAccessObjects.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccessObjects.dll": {}
+        }
+      },
+      "ProjectManagementWinApp_NguyenPhanManhKhai/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "BusinessObjects": "1.0.0",
+          "DataAccessObjects": "1.0.0",
+          "Repositories": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ProjectManagementWinApp_NguyenPhanManhKhai.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProjectManagementWinApp_NguyenPhanManhKhai.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "BusinessObjects": "1.0.0",
+          "DataAccessObjects": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repositories.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BusinessObjects/1.0.0": {
+      "type": "project",
+      "path": "../BusinessObjects/BusinessObjects.csproj",
+      "msbuildProject": "../BusinessObjects/BusinessObjects.csproj"
+    },
+    "DataAccessObjects/1.0.0": {
+      "type": "project",
+      "path": "../DataAccessObjects/DataAccessObjects.csproj",
+      "msbuildProject": "../DataAccessObjects/DataAccessObjects.csproj"
+    },
+    "ProjectManagementWinApp_NguyenPhanManhKhai/1.0.0": {
+      "type": "project",
+      "path": "../ProjectManagementWinApp_NguyenPhanManhKhai/ProjectManagementWinApp_NguyenPhanManhKhai.csproj",
+      "msbuildProject": "../ProjectManagementWinApp_NguyenPhanManhKhai/ProjectManagementWinApp_NguyenPhanManhKhai.csproj"
+    },
+    "Repositories/1.0.0": {
+      "type": "project",
+      "path": "../Repositories/Repositories.csproj",
+      "msbuildProject": "../Repositories/Repositories.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "BusinessObjects >= 1.0.0",
+      "DataAccessObjects >= 1.0.0",
+      "ProjectManagementWinApp_NguyenPhanManhKhai >= 1.0.0",
+      "Repositories >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\pc\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\pc\\Desktop\\PRN211_work\\Ass01Solution_NET1705_NguyenPhanManhKhai\\AddWindow\\AddWindow.csproj",
+      "projectName": "AddWindow",
+      "projectPath": "C:\\Users\\pc\\Desktop\\PRN211_work\\Ass01Solution_NET1705_NguyenPhanManhKhai\\AddWindow\\AddWindow.csproj",
+      "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pc\\Desktop\\PRN211_work\\Ass01Solution_NET1705_NguyenPhanManhKhai\\AddWindow\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {
+            "C:\\Users\\pc\\Desktop\\PRN211_work\\Ass01Solution_NET1705_NguyenPhanManhKhai\\BusinessObjects\\BusinessObjects.csproj": {
+              "projectPath": "C:\\Users\\pc\\Desktop\\PRN211_work\\Ass01Solution_NET1705_NguyenPhanManhKhai\\BusinessObjects\\BusinessObjects.csproj"
+            },
+            "C:\\Users\\pc\\Desktop\\PRN211_work\\Ass01Solution_NET1705_NguyenPhanManhKhai\\DataAccessObjects\\DataAccessObjects.csproj": {
+              "projectPath": "C:\\Users\\pc\\Desktop\\PRN211_work\\Ass01Solution_NET1705_NguyenPhanManhKhai\\DataAccessObjects\\DataAccessObjects.csproj"
+            },
+            "C:\\Users\\pc\\Desktop\\PRN211_work\\Ass01Solution_NET1705_NguyenPhanManhKhai\\ProjectManagementWinApp_NguyenPhanManhKhai\\ProjectManagementWinApp_NguyenPhanManhKhai.csproj": {
+              "projectPath": "C:\\Users\\pc\\Desktop\\PRN211_work\\Ass01Solution_NET1705_NguyenPhanManhKhai\\ProjectManagementWinApp_NguyenPhanManhKhai\\ProjectManagementWinApp_NguyenPhanManhKhai.csproj"
+            },
+            "C:\\Users\\pc\\Desktop\\PRN211_work\\Ass01Solution_NET1705_NguyenPhanManhKhai\\Repositories\\Repositories.csproj": {
+              "projectPath": "C:\\Users\\pc\\Desktop\\PRN211_work\\Ass01Solution_NET1705_NguyenPhanManhKhai\\Repositories\\Repositories.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

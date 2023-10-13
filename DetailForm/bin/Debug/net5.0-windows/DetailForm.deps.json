@@ -1,0 +1,81 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "DetailForm/1.0.0": {
+        "dependencies": {
+          "BusinessObjects": "1.0.0",
+          "DataAccessObjects": "1.0.0",
+          "ProjectManagementWinApp_NguyenPhanManhKhai": "1.0.0",
+          "Repositories": "1.0.0"
+        },
+        "runtime": {
+          "DetailForm.dll": {}
+        }
+      },
+      "BusinessObjects/1.0.0": {
+        "runtime": {
+          "BusinessObjects.dll": {}
+        }
+      },
+      "DataAccessObjects/1.0.0": {
+        "dependencies": {
+          "BusinessObjects": "1.0.0"
+        },
+        "runtime": {
+          "DataAccessObjects.dll": {}
+        }
+      },
+      "ProjectManagementWinApp_NguyenPhanManhKhai/1.0.0": {
+        "dependencies": {
+          "BusinessObjects": "1.0.0",
+          "DataAccessObjects": "1.0.0",
+          "Repositories": "1.0.0"
+        },
+        "runtime": {
+          "ProjectManagementWinApp_NguyenPhanManhKhai.dll": {}
+        }
+      },
+      "Repositories/1.0.0": {
+        "dependencies": {
+          "BusinessObjects": "1.0.0",
+          "DataAccessObjects": "1.0.0"
+        },
+        "runtime": {
+          "Repositories.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DetailForm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BusinessObjects/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataAccessObjects/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProjectManagementWinApp_NguyenPhanManhKhai/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
